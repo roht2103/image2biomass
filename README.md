@@ -86,7 +86,7 @@ The dataset is publicly available on Kaggle: [https://www.kaggle.com/competition
 ### Directory Structure Expected
 
 ```
-csiro-biomass/
+image2biomass/
 ├── train.csv              # Training labels (long format)
 ├── test.csv               # Test image paths
 ├── sample_submission.csv  # Submission format
@@ -170,9 +170,9 @@ Input Image (384×384×3)
 ## Project Structure
 
 ```
-csiro-biomass/
-├── image2biomass_v2.ipynb     # Main Colab notebook (Phase 3 & 4)
-├── README.md                  # This file
+image2biomass/
+├── image2biomass.ipynb     # Main Colab notebook
+├── README.md               # This file
 ├── outputs/
 │   ├── submission.csv         # Kaggle submission file
 │   ├── model_fold0.pt         # Best weights — fold 1
